@@ -43,7 +43,7 @@
 </nav>
 <h2 class="text-center mb-4">Nuestras Guitarras</h2>
 
-<div class="row">
+<div class="row" id="guitarras">
 
 <div class="col-md-4">
 <div class="card">
@@ -85,6 +85,9 @@
     <p class="text-center">
         Bienvenido a nuestra tienda. Encontrá guitarras de excelente calidad al mejor precio.
     </p>
+    <div class="text-center">
+      <a href="#guitarras"class="btn btn-primary btn-lg">Ver Guitarras</a>
+    </div>
 
     <h2>Productos destacados</h2>
 
@@ -99,10 +102,28 @@
     <p>10% de descuento en guitarras criollas durante este mes.</p>
 
     <h2>Contacto</h2>
+    <form>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button></form>
 
-    <p> Teléfono: 351-1234567</p>
-    <p> Correo: ventas@guitarrasonline.com</p>
+    
 </div>
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>Santiago Rincon.</p>
+    <p>Cuarto Año</p>
+    <p>Año: 2026</p>
+</footer>  
        
 </body>
 </html>
