@@ -2,3 +2,19 @@
 body {
     background-color: lightgray;
 }
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+}
+h2,h3 {
+    color: #0d6efd;
+}
+form label {
+    color:#0d6efd
+}
+input::placeholder, textarea::placeholder {
+    color:#0d6efd
+}
+form button{
+    color: #0d6efd;
+}
